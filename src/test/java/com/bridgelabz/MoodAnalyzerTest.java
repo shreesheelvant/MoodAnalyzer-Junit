@@ -3,6 +3,7 @@ package com.bridgelabz;
 import org.junit.Assert;
 import org.junit.Test;
 
+
 public class MoodAnalyzerTest {
     public MoodAnalyzer moodAnalyzer = new MoodAnalyzer();
 
@@ -17,7 +18,9 @@ public class MoodAnalyzerTest {
     public void givenMessage_WhenNotSad_ShouldReturnHappy() {
         String mood = moodAnalyzer.analyzeMood("I am in any mood");
         Assert.assertEquals("SAD", mood);
-    }
+
+
+
     }
 
 
